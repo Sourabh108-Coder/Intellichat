@@ -21,35 +21,35 @@
 
 **🛠 Tech Stack**
 
- 1. Frontend
+   1. Frontend
 
-   * React.js
+     * React.js
 
-   * Axios
+     * Axios
 
-   * React Router
+     * React Router
 
-   * React Toastify
+     * React Toastify
 
-   * CSS
+     * CSS
 
- 2. Backend
+   2. Backend
 
-   * Node.js
+     * Node.js
 
-   * Express.js
+     * Express.js
 
-   * MongoDB
+     * MongoDB
 
-   * Mongoose
+     * Mongoose
 
-   * JWT Authentication
+     * JWT Authentication
 
-   * bcrypt
+     * bcrypt
 
-   * AI
+     * AI
 
-   * Google AI Studio (Gemini API)
+     * Google AI Studio (Gemini API)
 
 
 
@@ -89,7 +89,7 @@ Chat-gpt-clone/
  **🧪 Installation & Setup**
 
  1️⃣ Clone the repository
-   - git clone https://github.com/your-username/Chat-gpt-clone.git
+   - git clone https://github.com/Sourabh108-Coder/Intellichat.git
    - cd Chat-gpt-clone
 
  2️⃣ Install dependencies
@@ -101,10 +101,9 @@ Chat-gpt-clone/
  3️⃣ Run the application (Frontend + Backend)
    - npm run dev
 
+ 4️⃣ Backend runs on: http://localhost:4000
 
-# Backend runs on: http://localhost:4000
-
-# Frontend runs on: http://localhost:3000
+ 5️⃣ Frontend runs on: http://localhost:3000
 
 
 **🧠 AI Chat Flow**
@@ -129,13 +128,13 @@ Chat-gpt-clone/
 ### 📝 Signup Page
 ![Signup Page](screenshots/Signup.png)
 
-### 💬 Chat Interface
+### 📜 Chat Interface
 ![Chat Interface](screenshots/Chat.png)
 
-### 💬 Home Page
+### 🏠 Home Page
 ![Home Page](screenshots/Home.png)
 
-### 💬 Histroy Page
+### 🕒 Histroy Page
 ![History Page](screenshots/History.png)
 
 

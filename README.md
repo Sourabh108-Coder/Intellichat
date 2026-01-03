@@ -74,7 +74,7 @@ Chat-gpt-clone/
 ├── package.json              # Backend + concurrently config
 └── package-lock.json
 
-## 📝 This project uses concurrently to run both frontend and backend with a single command.
+📝 This project uses concurrently to run both frontend and backend with a single command.
 
 
 **⚙️ Environment Variables**

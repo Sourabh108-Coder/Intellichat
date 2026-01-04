@@ -732,17 +732,12 @@ button {
 
 
 /* Home Page Mobile CSS Starts */
- /* =========================
-   BASE RESPONSIVE FIX
-========================= */
+
 .home-page {
   width: 40%;
   max-width: 100%;
 }
 
-/* =========================
-   TABLETS
-========================= */
 @media (max-width: 900px) {
   .home-page {
     width: 70%;
@@ -761,9 +756,6 @@ button {
   }
 }
 
-/* =========================
-   MOBILE DEVICES
-========================= */
 @media (max-width: 600px) {
 
   .rotating-image
@@ -815,9 +807,6 @@ button {
   }
 }
 
-/* =========================
-   SMALL PHONES
-========================= */
 @media (max-width: 400px) {
   .type {
     font-size: 22px;
@@ -844,6 +833,7 @@ button {
 }
 
 /* Home Page Mobile Css Ends */
+
 /* Home Page CSS Ends  */
 
 .last-gpt-code{

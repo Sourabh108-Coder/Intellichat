@@ -33,7 +33,6 @@ const Navbar = (props) => {
         </div>
       </Link>
 
-      {/* Hamburger Icon */}
       <div
         className={`hamburger ${menuOpen ? "open" : ""}`}
         onClick={() => setMenuOpen(!menuOpen)}
@@ -43,7 +42,6 @@ const Navbar = (props) => {
         <span></span>
       </div>
 
-      {/* Menu */}
       <div className={`buttons ${menuOpen ? "show" : ""}`}>
         <Link to="/" className='li-ar'><button className="glow-on-hover">Home</button></Link>
 

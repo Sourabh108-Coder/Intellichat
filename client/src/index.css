@@ -16,11 +16,20 @@ code {
     monospace;
 }
 
+@media (max-width: 600px) {
+  body{
+    overflow-y: auto;
+  }
+
+  .App{
+    overflow-x: hidden ;
+  }
+}
+
 
 .App
 {
-  max-width: 100%;
-  overflow: hidden;
+ width: 100%; 
 }
 
 /* Navbar CSS Starts */
@@ -244,6 +253,9 @@ code {
 
 /* Navbar CSS Ends */
 
+
+ /*Login Page CSS Starts */
+
 .log-page{
 
   width:70%;
@@ -253,6 +265,7 @@ code {
 .form-log-ele{
   width:100%;
   height:100%;
+  height: max-content;
 }
 
 
@@ -271,21 +284,6 @@ code {
   color:#00FFCB;
 }
 
-.sign-but{
-
-  width:320px;
-  padding: 0.2rem;
-  background-color: yellow;
-  border-radius: 3px;
-  font-family: 'Times New Roman', Times, serif;
-}
-
-
-.final{
-  display: flex;
-  justify-content: space-between;
-}
-
 
 .logo-form-img{
   width:25rem;
@@ -294,6 +292,13 @@ code {
   filter:drop-shadow(1px 1px 20px yellow);
  
 }
+
+
+.final{
+  display: flex;
+  justify-content: space-between;
+}
+
 
 
 .wrap {
@@ -329,7 +334,7 @@ background: linear-gradient(90deg, rgba(129,230,217,1) 0%, rgba(79,209,197,1) 10
   }
 
 .button::before {
-content: '';
+  content: '';
   border-radius: 1000px;
   min-width: calc(300px + 12px);
   min-height: calc(60px + 12px);
@@ -386,6 +391,94 @@ content: '';
   }
 }
 
+/* Login Page Mobile Css Starts */
+
+@media (max-width: 900px) {
+
+  .log-page {
+    width: 90%;
+  }
+
+  .final {
+    flex-direction: column;
+  }
+
+  .template-page {
+    width: 100%;
+  }
+
+  .input1-field {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .button {
+    min-width: 260px;
+    font-size: 18px;
+  }
+
+  
+
+}
+
+@media (max-width: 600px) {
+
+  .logo-form-img {
+    display: none;
+  }
+
+  .log-page {
+    width: 95%;
+    margin-top: 1rem;
+  }
+
+  .final {
+    flex-direction: column;
+  }
+
+  .log-head {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .desc1-1 {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  .input1-field {
+    width: 100%;
+    max-width: 280px;
+    font-size: medium;
+  }
+
+  .button {
+    min-width: 240px;
+    min-height: 45px;
+    font-size: 16px;
+  }
+
+  .button::before,
+  .button::after {
+    display: none; 
+  }
+}
+
+/* Login Page Mobile Css Ends */
+
+/* Login Page Css Ends */
+
+
+.sign-but{
+
+  width:320px;
+  padding: 0.2rem;
+  background-color: yellow;
+  border-radius: 3px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Signup Page Css Starts */
 
 .log-fir-las{
   display: flex;
@@ -425,18 +518,49 @@ content: '';
 }
 
 
+.pass-con-log{
+  display: flex;
+  gap:0.5rem;
+}
+
+
+/* Signup Page Mobile Css Starts */
+
+@media (max-width: 600px) {
+  .fir-las{
+    flex-direction: column;
+  }
+
+  .input2-field {
+    width: 100%;
+    max-width: 280px;
+    font-size: medium;
+  }
+
+  .input3-field {
+    width: 100%;
+    max-width: 280px;
+    font-size: medium;
+  }
+
+  .pass-con-log
+  {
+    flex-direction: column;
+  }
+  
+}
+
+/* Signup Page Mobile Css Ends */
+
+/* Signup Page Css ends */
+
+
 .goo-icon2{
   width:370px;
   padding: 0.2rem;
   background-color: yellow;
   border-radius: 3px;
   font-family: 'Times New Roman', Times, serif;
-}
-
-
-.pass-con-log{
-  display: flex;
-  gap:0.5rem;
 }
 
 .chatbot-div{

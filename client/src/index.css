@@ -202,6 +202,9 @@ code {
     place-items: center;
     z-index: 1000;
     margin-right: 5rem;
+    border: 1px solid yellow;
+    border-radius: 6px;
+    margin-left: 0.2rem;
   }
 
   .buttons.show {
@@ -555,6 +558,9 @@ background: linear-gradient(90deg, rgba(129,230,217,1) 0%, rgba(79,209,197,1) 10
 /* Signup Page Css ends */
 
 
+
+/* Dashboard Page Css Starts */
+
 .goo-icon2{
   width:370px;
   padding: 0.2rem;
@@ -573,10 +579,6 @@ background: linear-gradient(90deg, rgba(129,230,217,1) 0%, rgba(79,209,197,1) 10
   align-items: center;
 }
 
-.icon-per{
-  width:5rem;
-  height:5rem;
-}
 
 .clear-convo{
   display: flex;
@@ -594,6 +596,12 @@ background: linear-gradient(90deg, rgba(129,230,217,1) 0%, rgba(79,209,197,1) 10
   font-family: 'Times New Roman', Times, serif;
   margin-top:3rem;
 }
+
+.icon-per{
+  width:5rem;
+  height:5rem;
+}
+
 
 .actual-chat{
   margin:auto;
@@ -678,6 +686,116 @@ background: linear-gradient(90deg, rgba(129,230,217,1) 0%, rgba(79,209,197,1) 10
   height:25px;
   color:rgb(255, 5, 255);
 }
+
+/* Dashboard Page Mobile Css Starts */
+@media (max-width: 768px) {
+
+  .chatbot-div {
+    flex-direction: column; 
+    gap: 1rem;
+    margin-top: 1rem;
+    align-items: center;
+  }
+
+  .chat-con{
+    text-align: justify;
+    padding-right: 1rem;
+  }
+
+  .clear-convo {
+    width: 90%;
+    max-width: 20rem;
+    height: auto; 
+    margin-left: 0;
+    margin-top: 1rem;
+    padding: 1rem;
+    font-size: medium;
+  }
+
+  .icon-per {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .actual-chat {
+    width: 95%;
+    margin: 0;
+    margin-top: 1rem;
+  }
+
+  .harding {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+
+  .chat-api {
+    width: 100%;
+    height: 60vh;            
+    border-radius: 1rem;
+    overflow-y: auto;         
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    background-color: rgb(17, 43, 43);
+    border: 1px solid rgb(137, 228, 0);
+    padding: 0.5rem;
+    box-sizing: border-box;
+  }
+
+  
+  .chat-api::-webkit-scrollbar {
+    width: 6px;
+    background: transparent;  
+  }
+
+  .chat-api::-webkit-scrollbar-thumb {
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 3px;
+  }
+
+  .user-div, .chatgpt-div {
+    width: 100%;            
+    padding: 0.5rem;
+    margin: 0.25rem 0;     
+    font-size: 0.9rem;
+    border-radius: 0.5rem;
+    flex-direction: row;
+    align-items: flex-start; 
+    gap: 0.5rem;
+  }
+
+  .chat-icon {
+    width: 20px;
+    height: 20px;
+
+      }
+
+  .user-input {
+    width: 85%;
+    height: 2rem;
+    font-size: 0.9rem;
+    padding-left: 0.5rem;
+    margin: 0.5rem 0;
+  }
+
+  .send-icon {
+    position: absolute;
+    left: 81.4%; 
+    top: 57.4rem;
+    width: 38px;
+    height: 33px;
+    cursor: pointer;
+  }
+
+  .send-icon-img {
+    width: 25px;
+    height: 25px;
+  }
+
+}
+/* Dashboard Page Mobile Css Ends */
+
+/* Dashboard Page Css Ends  */
 
 .frame {
   width: 90%;
@@ -1059,6 +1177,8 @@ button {
   width: 100%;
 }
 
+/* History Page Css Starts */
+
 .hist-container {
   max-width: 80vw;
   margin: 20px auto;
@@ -1100,18 +1220,6 @@ button {
   color: white;
 }
 
-.user-bubble {
-  background-color: #d1e7dd;
-  align-self: flex-end;
-  text-align: right;
-}
-
-.gpt-bubble {
-  background-color: #fff;
-  align-self: flex-start;
-  text-align: left;
-}
-
 .chat-content {
   margin: 0 0 5px 0;
   font-size: 14px;
@@ -1139,3 +1247,92 @@ button {
   color: #555;
   margin-top: 20px;
 }
+
+/* History Page Mobile Css Starts */
+
+@media (max-width: 768px) {
+
+  .hist-container {
+    max-width: 80vw;
+    border-radius: 12px;
+  }
+
+  .hist-title {
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
+
+  .hist-chats {
+    max-height: 80vh;  
+    height: 65vh;      
+    overflow-y: auto;       
+    padding-right: 0;        
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding:0
+  }
+
+ 
+  .hist-chats::-webkit-scrollbar {
+    width: 6px;
+    background: transparent;
+  }
+
+  .hist-chats::-webkit-scrollbar-thumb {
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 3px;
+  }
+
+  
+  .hist-chat-item {
+    width: 70vw;             
+    flex-direction: column;  
+    align-items: flex-start;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  }
+
+  
+  .chat-content {
+    font-size: 10px;
+    margin-bottom: 4px;
+  }
+
+  .chat-timestamp {
+    font-size: 7px;
+    color: #cfd8ff;
+    align-self: flex-end;
+  }
+
+
+  .loading-text {
+    font-size: 14px;
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .hist-title {
+    font-size: 20px;
+  }
+
+  .chat-content {
+    font-size: 10px;
+  }
+
+  .chat-timestamp {
+    font-size: 7px;
+  }
+
+  .hist-chat-item {
+    padding: 10px;
+  }
+}
+
+/* History Page Mobile Css Ends */
+
+/* History Page Css Ends  */

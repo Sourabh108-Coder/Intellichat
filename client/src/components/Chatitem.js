@@ -20,7 +20,7 @@ const chatitem = (props) => {
             (
                 <div className='chatgpt-div'>
                    <div className='flex-item'><PiOpenAiLogoFill className='chat-icon'/></div>
-                   <div>{content}</div>
+                   <div className="chat-con">{content}</div>
                 </div>
             )
         }

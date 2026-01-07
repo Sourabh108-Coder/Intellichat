@@ -125,17 +125,40 @@ Chat-gpt-clone/
 ### 🔐 Login Page
 ![Login Page](screenshots/Login.png)
 
+### 🔐 Login Page (Mobile)
+![Login Page](screenshots/Login_Mobile.png)
+
+
 ### 📝 Signup Page
 ![Signup Page](screenshots/Signup.png)
+
+### 📝 Signup Page (Mobile)
+![Signup Page](screenshots/Signup_Mobile.png)
+
 
 ### 📜 Chat Interface
 ![Chat Interface](screenshots/Chat.png)
 
+### 📜 Chat Interface (Mobile_Chats)
+![Chat Interface](screenshots/Chat_Mobile_Cha.png)
+
+### 📜 Chat Interface (Mobile_Conversations)
+![Chat Interface](screenshots/Chat_Mobile_Con.png)
+
+
 ### 🏠 Home Page
 ![Home Page](screenshots/Home.png)
 
+### 🏠 Home Page (Mobile)
+![Home Page](screenshots/Home_Mobile.png)
+
+
 ### 🕒 Histroy Page
 ![History Page](screenshots/History.png)
+
+### 🕒 Histroy Page (Mobile)
+![History Page](screenshots/History_Mobile.png)
+
 
 
 **👨‍💻 Author**

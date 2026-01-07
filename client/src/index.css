@@ -32,8 +32,6 @@ code {
  width: 100%; 
 }
 
-/* Navbar CSS Starts */
-
 .nav-bar{
 
   display: flex;
@@ -145,9 +143,6 @@ code {
   100% { background-position: 0 0; }
 }
 
-
-/* Navbar Mobile Css Starts */
-
 .nav-bar {
   position: relative;
 }
@@ -251,13 +246,6 @@ code {
     font-size: 0.8rem;
   }
 }
-
-/* Navbar Mobile CSS Ends */
-
-/* Navbar CSS Ends */
-
-
- /*Login Page CSS Starts */
 
 .log-page{
 
@@ -394,7 +382,6 @@ background: linear-gradient(90deg, rgba(129,230,217,1) 0%, rgba(79,209,197,1) 10
   }
 }
 
-/* Login Page Mobile Css Starts */
 
 @media (max-width: 900px) {
 
@@ -467,11 +454,6 @@ background: linear-gradient(90deg, rgba(129,230,217,1) 0%, rgba(79,209,197,1) 10
   }
 }
 
-/* Login Page Mobile Css Ends */
-
-/* Login Page Css Ends */
-
-
 .sign-but{
 
   width:320px;
@@ -480,8 +462,6 @@ background: linear-gradient(90deg, rgba(129,230,217,1) 0%, rgba(79,209,197,1) 10
   border-radius: 3px;
   font-family: 'Times New Roman', Times, serif;
 }
-
-/* Signup Page Css Starts */
 
 .log-fir-las{
   display: flex;
@@ -527,8 +507,6 @@ background: linear-gradient(90deg, rgba(129,230,217,1) 0%, rgba(79,209,197,1) 10
 }
 
 
-/* Signup Page Mobile Css Starts */
-
 @media (max-width: 600px) {
   .fir-las{
     flex-direction: column;
@@ -552,14 +530,6 @@ background: linear-gradient(90deg, rgba(129,230,217,1) 0%, rgba(79,209,197,1) 10
   }
   
 }
-
-/* Signup Page Mobile Css Ends */
-
-/* Signup Page Css ends */
-
-
-
-/* Dashboard Page Css Starts */
 
 .goo-icon2{
   width:370px;
@@ -687,7 +657,6 @@ background: linear-gradient(90deg, rgba(129,230,217,1) 0%, rgba(79,209,197,1) 10
   color:rgb(255, 5, 255);
 }
 
-/* Dashboard Page Mobile Css Starts */
 @media (max-width: 768px) {
 
   .chatbot-div {
@@ -793,9 +762,6 @@ background: linear-gradient(90deg, rgba(129,230,217,1) 0%, rgba(79,209,197,1) 10
   }
 
 }
-/* Dashboard Page Mobile Css Ends */
-
-/* Dashboard Page Css Ends  */
 
 .frame {
   width: 90%;
@@ -857,7 +823,6 @@ button {
   margin-right: 0.7rem;
 }
 
-/* Home Page CSS Starts */
 
 .home-page{
   width: 40%;
@@ -972,9 +937,6 @@ button {
   display: block;
 }
 
-
-/* Home Page Mobile CSS Starts */
-
 .home-page {
   width: 40%;
   max-width: 100%;
@@ -1073,10 +1035,6 @@ button {
     font-size: 17px;
   }
 }
-
-/* Home Page Mobile Css Ends */
-
-/* Home Page CSS Ends  */
 
 .last-gpt-code{
   margin-top:3rem;
@@ -1177,8 +1135,6 @@ button {
   width: 100%;
 }
 
-/* History Page Css Starts */
-
 .hist-container {
   max-width: 80vw;
   margin: 20px auto;
@@ -1247,8 +1203,6 @@ button {
   color: #555;
   margin-top: 20px;
 }
-
-/* History Page Mobile Css Starts */
 
 @media (max-width: 768px) {
 
@@ -1333,6 +1287,3 @@ button {
   }
 }
 
-/* History Page Mobile Css Ends */
-
-/* History Page Css Ends  */
